@@ -13,6 +13,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
     
@@ -24,43 +28,93 @@
         <div class="logo">
             <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
         </div>
-        <nav class="main-menu">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Activities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cliffs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- <nav class="main-menu navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button"class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="cliffs.html">Cliffs</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          
+      </nav> -->
+        
+
+        <!-- <nav class="main-menu">
             <ul>
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="cliffs.html">Cliffs</a></li>
                 <li><a href="activities.html">Activities</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </div>
     </header>
 
     <main>
-      <div>
-        <h1>Introducing California's Greatest Cliffs</h1>
-          <div>
-            <h2>What is so unique about California cliffs?</h2>
-            <p>
-              California cliffs are one of a kind in the United States where
-              no cliffs are as manificent and beautiful as them. And
-              California is the only state that have cliffs that fronts all
-              possible environments: sea, river, mountains and canyons. There
-              are four such individual unique cliffs: West Cliff, North Cliff,
-              East Cliff and South Cliff. All offer fantastic overlooking
-              views, recreational areas, camping sites, wildlife watch spots
-              and overnight cabins.
-            </p>
-          </div>
+      <h1>Introducing California's Greatest Cliffs</h1>
+      <div class="main">
+        <div class="host">
+          <h2>What is so unique about California cliffs?</h2>
+          <p>
+            California cliffs are one of a kind in the United States where
+            no cliffs are as manificent and beautiful as them. And
+            California is the only state that have cliffs that fronts all
+            possible environments: sea, river, mountains and canyons. There
+            are four such individual unique cliffs: West Cliff, North Cliff,
+            East Cliff and South Cliff. All offer fantastic overlooking
+            views, recreational areas, camping sites, wildlife watch spots
+            and overnight cabins.
+          </p>
+        </div>
+        <div class="host">
+          <h2>Where are these cliffs?</h2>
+          <p>
+            Located within a 100 mile radius from Irvine, California, they
+            can be reached by roads easily. The closest cliff to Irvine is
+            West Cliff, which is the most popular and most visited.
+          </p>
+        </div>
       </div>
  
-      <div>
-        <h2>Where are these cliffs?</h2>
-        <p>
-          Located within a 100 mile radius from Irvine, California, they
-          can be reached by roads easily. The closest cliff to Irvine is
-          West Cliff, which is the most popular and most visited.
-        </p>
-      </div>
+      
     </main>
     
     <section>
